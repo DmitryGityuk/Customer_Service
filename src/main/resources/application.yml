@@ -1,6 +1,6 @@
 spring:
     application:
-        name: microservice-order
+        name: microservice-customer
 
 microservice-customer:
     url: https://customer.microservicesdemo.net/customer/api/v1/
@@ -8,9 +8,9 @@ microservice-customer:
 data:
     mongodb:
         uri: mongodb+srv://mkmongouser:Secret_Password@cluster0.yu4x6.mongodb.net
-        database: order
+        database: customer
 
 server:
     port: 8080
     servlet:
-        context-path: /order
+        context-path: /customer
