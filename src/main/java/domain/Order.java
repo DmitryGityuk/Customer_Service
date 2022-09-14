@@ -1,4 +1,4 @@
-package pojo;
+package domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
