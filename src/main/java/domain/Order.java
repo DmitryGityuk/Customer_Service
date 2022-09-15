@@ -24,9 +24,10 @@ import java.util.Set;
 @ToString
 @AllArgsConstructor
 public class Order implements Serializable {
-    private static final long serialVersionUID = 1l;
+    private static final long serialVersionUID = 1L;
 
     @Id
+    @NotBlank
     private String id;
 
     @NotBlank
